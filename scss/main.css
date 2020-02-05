@@ -1,0 +1,440 @@
+* {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  list-style: none;
+  font-family: sans-serif;
+  padding: 10px;
+}
+
+nav li {
+  padding: 10px;
+}
+
+nav .logo {
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+nav .login_btn {
+  padding: 10px 15px;
+  background: orange;
+  color: white;
+  font-weight: 600;
+}
+
+nav div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main {
+  height: 60vh;
+  background-image: url("../img/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: sans-serif;
+}
+
+.main .text {
+  position: relative;
+  top: 20%;
+  left: 10%;
+  font-size: 1.2rem;
+}
+
+.main .inputs {
+  position: relative;
+  top: 30%;
+  left: 10%;
+}
+
+.main .inputs input {
+  padding: 10px;
+  width: 300px;
+}
+
+.main .inputs select {
+  padding: 10px;
+}
+
+.main .inputs button {
+  padding: 10px 15px;
+  background: darkblue;
+  border: none;
+  color: darkgreen;
+  font-weight: bold;
+}
+
+.section1 {
+  background: #e2378d;
+  padding: 20px;
+  font-family: sans-serif;
+  color: white;
+}
+
+.section1 h3 {
+  padding: 10px;
+}
+
+.section1 ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.section1 ul li {
+  padding: 10px 0px;
+}
+
+.section1 ul button {
+  padding: 5px 10px;
+  background: #921b56;
+  border: none;
+  color: white;
+}
+
+.section2 {
+  font-family: sans-serif;
+  padding-top: 50px;
+}
+
+.section2 .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.section2 .header button {
+  position: relative;
+  left: 8%;
+  border: none;
+  background: hotpink;
+  padding: 10px 15px;
+  color: white;
+}
+
+.section2 .header h1 {
+  position: relative;
+  left: -16%;
+}
+
+.section2 .grids {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  font-family: sans-serif;
+  -webkit-box-orient: horizontal !important;
+  -webkit-box-direction: normal !important;
+      -ms-flex-direction: row !important;
+          flex-direction: row !important;
+  width: 100vw;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.section2 .grids .card {
+  margin: 10px;
+  height: 300px;
+  width: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: left;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 30px;
+}
+
+.section2 .grids .card p {
+  color: #797979;
+}
+
+.section2 .grids .card a {
+  text-decoration: none;
+  color: cyan;
+}
+
+.section3 {
+  font-family: sans-serif;
+  padding-top: 50px;
+}
+
+.section3 .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.section3 .header button {
+  position: relative;
+  left: 5%;
+  border: none;
+  background: hotpink;
+  padding: 10px 15px;
+  color: white;
+}
+
+.section3 .header h1 {
+  position: relative;
+  left: -10%;
+}
+
+.section3 .grids {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  font-family: sans-serif;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100vw;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.section3 .grids .card {
+  margin: 10px;
+  height: 300px;
+  width: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: left;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 30px;
+}
+
+.section3 .grids .card .text {
+  padding: 20px;
+}
+
+.section3 .grids .card .text ul li {
+  color: #8b8b8b !important;
+}
+
+.section4 {
+  font-family: sans-serif;
+  padding-top: 50px;
+  background: darkcyan;
+}
+
+.section4 .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.section4 .header button {
+  position: relative;
+  left: 5%;
+  border: none;
+  background: white;
+  padding: 10px 15px;
+  color: darkcyan;
+}
+
+.section4 .header h1 {
+  position: relative;
+  left: -10%;
+  color: white;
+}
+
+.section4 .grids {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  font-family: sans-serif;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100vw;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.section4 .grids .card {
+  background: white;
+  margin: 10px;
+  height: auto;
+  width: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: left;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 30px;
+}
+
+.section4 .grids .card .text {
+  padding: 20px;
+  width: 100%;
+}
+
+.section4 .grids .card .text p {
+  color: #8b8b8b;
+}
+
+.main1 {
+  height: 60vh;
+  background-image: url("https://picsum.photos/1200/300");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: sans-serif;
+}
+
+.main1 .text {
+  position: relative;
+  top: 20%;
+  left: 10%;
+  font-size: 1.2rem;
+  color: white;
+}
+
+.main1 .inputs {
+  position: relative;
+  top: 30%;
+  left: 10%;
+}
+
+.main1 .inputs input {
+  padding: 10px;
+  width: 300px;
+}
+
+.main1 .inputs select {
+  padding: 10px;
+}
+
+.main1 .inputs button {
+  padding: 10px 15px;
+  background: hotpink;
+  border: none;
+  color: white;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+.main1 .inputs ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 3rem;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 50%;
+  color: white;
+}
+
+footer {
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  font-family: sans-serif;
+  padding: 20px;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+footer .footers {
+  width: 300px;
+}
+
+footer .footers .flex div {
+  padding: 20px 0px;
+}
+
+footer .footers ul li {
+  padding: 10px 0px;
+  color: #8b8b8b;
+}
+
+footer .footers p {
+  color: #8b8b8b;
+}
+
+footer .footers a {
+  text-decoration: none;
+  color: #249e9e;
+  margin: 10px 0px;
+}
+
+footer .footers h4 {
+  margin: 10px 0px;
+}
+
+footer .footers input {
+  padding: 10px;
+  margin: 10px 0px;
+}
+
+footer .footers button {
+  padding: 10px;
+  background: #249e9e;
+  color: white;
+  border: none;
+}
+/*# sourceMappingURL=main.css.map */

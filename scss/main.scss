@@ -1,0 +1,350 @@
+$MainFont: sans-serif;
+    *{
+        padding:0;
+        margin:0;
+        overflow-x: hidden;
+    }   
+nav{
+    display:flex;
+    justify-content: space-evenly;
+    list-style: none;
+    font-family: $MainFont;
+    padding:10px;
+    li{
+        padding:10px;
+
+    }
+    .logo{
+        font-weight: bold;
+        font-size:1.3rem;
+    }
+    .login_btn{
+        padding:10px 15px;
+        background:orange;
+        color:white;
+        font-weight: 600;
+
+    }
+  div{
+      display:flex;
+      justify-content: center;
+     
+  }
+}
+
+.main{
+    height:60vh;
+    background-image: url("../img/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: $MainFont;
+    .text{
+        position: relative;
+        top:20%;
+        left: 10%;
+        font-size: 1.2rem;
+    }
+    .inputs{
+        position: relative;
+        top:30%;
+        left: 10%;
+        input{
+            padding:10px;
+            width:300px;
+        }
+        select{
+            padding:10px;
+        }
+        button{
+            padding:10px 15px;
+            background:darkblue;
+            border:none;
+            color:darkgreen;
+            font-weight: bold;
+        }
+    }
+
+}
+
+
+.section1{
+    background:rgb(226, 55, 141);
+    padding:20px;
+    font-family: $MainFont;
+    color:white;
+    h3{
+        padding:10px;
+    }
+    ul{
+        display:flex;
+        justify-content: space-evenly;
+        li{
+            padding:10px 0px;
+
+        }
+        button{
+            padding:5px 10px;
+            background:rgb(146, 27, 86);
+            border:none;
+            color:white;
+        }
+    }
+}
+
+.section2{
+    font-family: $MainFont;
+    padding-top: 50px;
+    .header{
+        display: flex;
+        justify-content: space-around;
+        button{
+            position: relative;
+            left: 8%;
+            border:none;
+            background:hotpink;
+            padding:10px 15px;
+            color:white;
+        }
+        h1{
+            position: relative;
+            left: -16%;
+        }
+        }
+        .grids{
+            display: flex;
+            flex-wrap:wrap;
+            font-family: $MainFont;
+            flex-direction: row !important;
+            width: 100vw;
+            justify-content: center;
+      .card{
+          margin:10px;
+          height:300px;
+          width:200px;
+          display: flex;
+          justify-content: center;
+          text-align:left;
+          align-items: center;
+         flex-direction: column;
+         padding:30px;
+         p{
+             color:rgb(121, 121, 121);
+         }
+         a{
+             text-decoration: none;
+             color:cyan;
+         }
+      }  
+    }
+
+
+}
+
+.section3{
+    font-family: $MainFont;
+    padding-top: 50px;
+    .header{
+        display: flex;
+        justify-content: space-around;
+        button{
+            position: relative;
+            left: 5%;
+            border:none;
+            background:hotpink;
+            padding:10px 15px;
+            color:white;
+        }
+        h1{
+            position: relative;
+            left: -10%;
+        }
+        }
+        .grids{
+            display: flex;
+            flex-wrap:wrap;
+            font-family: $MainFont;
+            flex-direction: row ;
+            width: 100vw;
+            justify-content: center;
+      .card{
+          margin:10px;
+          height:300px;
+          width:auto;
+          display: flex;
+          justify-content: center;
+          text-align:left;
+          align-items: center;
+         flex-direction: row;
+         padding:30px;
+      
+         .text{
+            padding:20px;
+            ul{
+               li{
+                color:rgb(139, 139, 139) !important;
+               }
+
+            }
+        }
+       
+        
+      }  
+    }
+
+
+}
+
+.section4{
+    font-family: $MainFont;
+    padding-top: 50px;
+    background:darkcyan;
+    .header{
+        display: flex;
+        justify-content: space-around;
+        button{
+            position: relative;
+            left: 5%;
+            border:none;
+            background:white;
+            padding:10px 15px;
+            color:darkcyan;
+        }
+        h1{
+            position: relative;
+            left: -10%;
+            color:white;
+        }
+        }
+        .grids{
+            display: flex;
+            flex-wrap:wrap;
+            font-family: $MainFont;
+            flex-direction: row ;
+            width: 100vw;
+            justify-content: center;
+      .card{
+          background:white;
+          margin:10px;
+          height:auto;
+          width:300px;
+          display: flex;
+          justify-content: center;
+          text-align:left;
+          align-items: center;
+         flex-direction: column;
+         padding:30px;
+      
+         .text{
+            padding:20px;
+            width:100%;
+          p{
+            color:rgb(139, 139, 139);
+          }
+
+        
+        }
+       
+        
+      }  
+    }
+
+
+}
+
+
+
+.main1{
+    height:60vh;
+    background-image: url("https://picsum.photos/1200/300");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: $MainFont;
+    .text{
+        position: relative;
+        top:20%;
+        left: 10%;
+        font-size: 1.2rem;
+        color:rgb(255, 255, 255);
+
+    }
+    .inputs{
+        position: relative;
+        top:30%;
+        left: 10%;
+        
+        input{
+            padding:10px;
+            width:300px;
+        }
+        select{
+            padding:10px;
+        }
+        button{
+            padding:10px 15px;
+            background:hotpink;
+            border:none;
+            color:white;
+            font-weight: bold;
+            margin-top:30px;
+        }
+        ul{
+            display: flex;
+            font-size:3rem;
+            justify-content: space-around;
+            width:50%;
+            color:rgb(255, 255, 255);
+
+
+
+        }
+    }
+
+}
+
+footer{
+    height:auto;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: $MainFont;
+    padding:20px;
+    justify-content: space-evenly;
+    .footers{
+        width:300px;
+
+        .flex{
+           div{
+            padding:20px 0px;
+           }
+        }
+        ul{
+            li{
+                padding:10px 0px;
+                color:rgb(139, 139, 139);
+
+            }
+        }
+        p{
+            color:rgb(139, 139, 139);
+
+        }
+        a{
+            text-decoration: none;
+            color:rgb(36, 158, 158);
+            margin:10px 0px;
+        }
+        h4{
+            margin:10px 0px;
+        }
+        input{
+            padding:10px;
+            margin:10px 0px;
+        }
+        button{
+            padding:10px;
+            background:rgb(36, 158, 158);
+            color:white;
+            border:none;
+
+        }
+    }
+}
